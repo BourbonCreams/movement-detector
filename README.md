@@ -25,7 +25,7 @@ BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
 ## How to use
 Follow the instructions provided by the PyImageSearch link provided above. These will create a Python virtual environment with all the needed packages. Whenever you want to run the code, you will have to activate this virtual environment and finally launch:
 ```
-python pi_surveillance.py
+python pi_surveillance.py -c conf.json
 ```
 
 Note that the the conf.json file needs to be edited with the correct Dropbox token and URL to save the images.
