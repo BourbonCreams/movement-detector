@@ -51,9 +51,8 @@ for f in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True
     timestamp = datetime.datetime.now()
     text = "Unoccupied"
     
-    # convert the frame to grayscale, and blur it
+    # convert the frame to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    gray = cv2.GaussianBlur(gray, (21, 21), 0)
     
     # if the average frame is None, initialize it
     if avg is None:
