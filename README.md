@@ -34,3 +34,7 @@ Note that the the conf.json file needs to be edited with the correct Dropbox tok
 Images of Mika eating her treat sneakily after hiding under the blanket in a fully dark room can be found in the `sampleResultImages` directory.
 
 ![alt text](https://github.com/BourbonCreams/movementDetector/blob/master/sampleResultImages/Wednesday%2017%20June%202020%2005:08:17PM.jpg?raw=true)
+
+## VNC (Virtual Network Computing)
+If you want to use VNC to run the application on a remote desktop, you have to enable VNC on the Raspberry Pi (run `sudo raspi-config`) and then follow the instructions on the official [Raspberry page for VNC](https://www.raspberrypi.org/documentation/remote-access/vnc/), which will ask you to install the VNC viewer on your desktop.
+Once logged in, remember to enable the virtual environment and then launch the application as described above.
